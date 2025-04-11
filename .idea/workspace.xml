@@ -25,6 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -39,57 +42,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven.Task [clean].executor": "Run",
-    "Maven.Task [compile].executor": "Run",
-    "Maven.Task [install].executor": "Run",
-    "Maven.Task [package].executor": "Run",
-    "Maven.Task [test].executor": "Run",
-    "Maven.Task [validate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.AddToCartTest.executor": "Run",
-    "TestNG.AddToCartTest.testAddToCart.executor": "Run",
-    "TestNG.CartTests.addItemToCartTest.executor": "Run",
-    "TestNG.CheckoutTests.testInvalidCheckout.executor": "Run",
-    "TestNG.CheckoutTests.testValidCheckout.executor": "Run",
-    "TestNG.CheckoutTests.testValidCheckout1.executor": "Run",
-    "TestNG.CompletePurchaseTest.executor": "Run",
-    "TestNG.CompletePurchaseTest.testCompletePurchase.executor": "Run",
-    "TestNG.ProductSearchTest.executor": "Run",
-    "TestNG.ProductSearchTest.testInvalidSearchShowsNoResults.executor": "Run",
-    "TestNG.SearchTests.testInvalidSearch.executor": "Run",
-    "TestNG.SearchTests.testValidSearch.executor": "Run",
-    "TestNG.SearchTests.validProductSearchTest.executor": "Run",
-    "TestNG.SecurityTests.executor": "Run",
-    "TestNG.SecurityTests.testSqlInjectionSearch.executor": "Run",
-    "TestNG.SecurityTests.testXssSearch.executor": "Run",
-    "TestNG.log.f.executor": "Run",
-    "TestNG.newtest.f.executor": "Run",
-    "TestNG.tests.CartTests and 1 more.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/menshawy_jr/Documents/I/Quality/QC/Practical/Automation/Tasks/UI/Task",
-    "onboarding.tips.debug.path": "/Users/menshawy_jr/Documents/I/Quality/QC/Practical/Automation/Tasks/UI/Task/src/main/java/org/example/Main.java",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven.Task [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Task [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Task [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Task [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Task [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Task [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.AddToCartTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddToCartTest.testAddToCart.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CartTests.addItemToCartTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTests.testInvalidCheckout.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTests.testValidCheckout.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckoutTests.testValidCheckout1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CompletePurchaseTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CompletePurchaseTest.testCompletePurchase.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductSearchTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductSearchTest.testInvalidSearchShowsNoResults.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SearchTests.testInvalidSearch.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SearchTests.testValidSearch.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SearchTests.validProductSearchTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SecurityTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SecurityTests.testSqlInjectionSearch.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SecurityTests.testXssSearch.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.log.f.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.newtest.f.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tests.CartTests and 1 more.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/menshawy_jr/Documents/I/Quality/QC/Practical/Automation/Tasks/UI/Task&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/menshawy_jr/Documents/I/Quality/QC/Practical/Automation/Tasks/UI/Task/src/main/java/org/example/Main.java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SecurityTests.testXssSearch">
+  <component name="RunManager" selected="TestNG.SearchTests.testInvalidSearch">
     <configuration name="CheckoutTests.testValidCheckout1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Task" />
       <extension name="coverage">
@@ -182,9 +188,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTests.testInvalidSearch" />
         <item itemvalue="TestNG.SecurityTests.testXssSearch" />
         <item itemvalue="TestNG.SecurityTests.testSqlInjectionSearch" />
-        <item itemvalue="TestNG.SearchTests.testInvalidSearch" />
         <item itemvalue="TestNG.SearchTests.testValidSearch" />
         <item itemvalue="TestNG.CheckoutTests.testValidCheckout1" />
       </list>
@@ -247,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744350304586</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1744353272449</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744353272449</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,7 +291,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/tests/log.java</url>
           <line>11</line>
-          <properties class="tests.log" method="f">
+          <properties class="tests.log">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

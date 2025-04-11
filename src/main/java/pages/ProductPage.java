@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
-public class ProductPage extends BasePage {
+public class ProductPage extends pages.BasePage {
     private final By sizeOption = By.cssSelector(".swatch-option.text");
     private final By colorOption = By.cssSelector(".swatch-option.color");
     private final By addToCartBtn = By.id("product-addtocart-button");

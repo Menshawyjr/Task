@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class HomePage extends BasePage {
+public class HomePage extends pages.BasePage {
     private final By searchBox = By.id("search");
     private final By searchIcon = By.cssSelector("button[title='Search']");
 

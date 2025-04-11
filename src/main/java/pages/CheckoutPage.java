@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class CheckoutPage extends BasePage {
+public class CheckoutPage extends pages.BasePage {
     private final By proceedToCheckoutBtn = By.xpath("//*[@id=\"maincontent\"]/div[3]/div/div[2]/div[1]/ul/li[1]/button/span");
     private final By emailField = By.id("customer-email");
     private final By firstName = By.name("firstname");

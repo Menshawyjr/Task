@@ -28,7 +28,6 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup(); // Automatically handles driver version
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-       // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // Add implicit wait
         driver.get("https://magento.softwaretestingboard.com");
         productPage = new ProductPage(driver);  // Initialize ProductPage
     }

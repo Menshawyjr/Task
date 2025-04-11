@@ -31,7 +31,7 @@ public class SearchTests extends BaseTest {
         HomePage home = new HomePage(driver);
         home.search("xyz123@@##");
         SearchResultsPage results = new SearchResultsPage(driver);
-        Assert.assertTrue(results.getNoResultsText().contains("success"));
+        Assert.assertTrue(results.getNoResultsText().contains("no results"));
     }
 
 }

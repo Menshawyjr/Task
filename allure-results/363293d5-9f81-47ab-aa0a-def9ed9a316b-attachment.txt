@@ -1,0 +1,153 @@
+[INFO ] 2025-04-11 08:33:50.725 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.9.1.20250313[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-11 08:33:50.763 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-04-11 08:33:50.782 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-04-11 08:33:50.821 [main] ReportManager - Executing: "chmod u+x generate_allure_report.sh" locally.
+[INFO ] 2025-04-11 08:33:50.939 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-04-11 08:33:51.454 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2025-04-11 08:33:51.496 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-04-11 08:33:51.579 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-11 08:33:51.612 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-04-11 08:33:51.685 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                            'tests.SearchTests.setup'                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2025-04-11 08:33:51.701 [main] WebDriverManager - Using WebDriverManager 6.0.1
+[DEBUG] 2025-04-11 08:33:51.872 [main] ResolutionCache - Resolution chrome=135 in cache (valid until 09:21:04 11/04/2025 EET)
+[DEBUG] 2025-04-11 08:33:51.872 [main] ResolutionCache - Resolution chrome135=135.0.7049.84 in cache (valid until 16:01:12 11/04/2025 EET)
+[INFO ] 2025-04-11 08:33:51.873 [main] WebDriverManager - Using chromedriver 135.0.7049.84 (resolved driver for Chrome 135)
+[DEBUG] 2025-04-11 08:33:51.879 [main] WebDriverManager - Driver chromedriver 135.0.7049.84 found in cache
+[INFO ] 2025-04-11 08:33:51.880 [main] WebDriverManager - Exporting webdriver.chrome.driver as /Users/menshawy_jr/.cache/selenium/chromedriver/mac-arm64/135.0.7049.84/chromedriver
+[DEBUG] 2025-04-11 08:33:51.978 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2025-04-11 08:33:52.056 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2025-04-11 08:33:52.342 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-04-11 08:33:52.343 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-04-11 08:33:52.343 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-04-11 08:33:52.343 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-04-11 08:33:52.344 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-04-11 08:33:52.344 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.345 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.345 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.345 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.345 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.345 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.345 [] wire -  >> "[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.345 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-04-11 08:33:52.345 [] headers - >> Accept: */*
+[DEBUG] 2025-04-11 08:33:52.345 [] headers - >> Host: api.github.com
+[DEBUG] 2025-04-11 08:33:52.345 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-04-11 08:33:52.345 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+[DEBUG] 2025-04-11 08:33:52.345 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-04-11 08:33:52.765 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.767 [] wire -  << "Date: Fri, 11 Apr 2025 06:33:52 GMT[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.767 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.767 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.767 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.767 [] wire -  << "ETag: W/"934d5dbbcdb9149c5b7f56322f4bf32efd326836d214929ca7638b18cca3b483"[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.767 [] wire -  << "Last-Modified: Wed, 09 Apr 2025 21:00:45 GMT[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.768 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.768 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.768 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.768 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.768 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.768 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.768 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.768 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.769 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.769 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.769 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.769 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.769 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.769 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.769 [] wire -  << "X-RateLimit-Remaining: 57[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.769 [] wire -  << "X-RateLimit-Reset: 1744356064[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.769 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.769 [] wire -  << "X-RateLimit-Used: 3[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.770 [] wire -  << "Content-Length: 1553[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.770 [] wire -  << "X-GitHub-Request-Id: 0B54:17FACD:3B379B0:3D0F945:67F8B7D0[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.770 [] wire -  << "[\r][\n]"
+[DEBUG] 2025-04-11 08:33:52.771 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-04-11 08:33:52.771 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-04-11 08:33:52.771 [] headers - << Date: Fri, 11 Apr 2025 06:33:52 GMT
+[DEBUG] 2025-04-11 08:33:52.771 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2025-04-11 08:33:52.771 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2025-04-11 08:33:52.771 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2025-04-11 08:33:52.771 [] headers - << ETag: W/"934d5dbbcdb9149c5b7f56322f4bf32efd326836d214929ca7638b18cca3b483"
+[DEBUG] 2025-04-11 08:33:52.771 [] headers - << Last-Modified: Wed, 09 Apr 2025 21:00:45 GMT
+[DEBUG] 2025-04-11 08:33:52.771 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2025-04-11 08:33:52.771 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2025-04-11 08:33:52.772 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2025-04-11 08:33:52.772 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-04-11 08:33:52.772 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2025-04-11 08:33:52.772 [] headers - << X-Frame-Options: deny
+[DEBUG] 2025-04-11 08:33:52.772 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2025-04-11 08:33:52.772 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2025-04-11 08:33:52.772 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2025-04-11 08:33:52.772 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2025-04-11 08:33:52.772 [] headers - << Content-Encoding: gzip
+[DEBUG] 2025-04-11 08:33:52.772 [] headers - << Server: github.com
+[DEBUG] 2025-04-11 08:33:52.772 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2025-04-11 08:33:52.773 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2025-04-11 08:33:52.773 [] headers - << X-RateLimit-Remaining: 57
+[DEBUG] 2025-04-11 08:33:52.773 [] headers - << X-RateLimit-Reset: 1744356064
+[DEBUG] 2025-04-11 08:33:52.773 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2025-04-11 08:33:52.773 [] headers - << X-RateLimit-Used: 3
+[DEBUG] 2025-04-11 08:33:52.773 [] headers - << Content-Length: 1553
+[DEBUG] 2025-04-11 08:33:52.773 [] headers - << X-GitHub-Request-Id: 0B54:17FACD:3B379B0:3D0F945:67F8B7D0
+[DEBUG] 2025-04-11 08:33:52.782 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2025-04-11 08:33:52.782 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Xko[0x9c]8[0x14][0xfd]+h[0xaa]j[0xa5]([0xc0][0xc0][0xbc][0x91][0xaa][0xbe][0x92][0xb4]Q[0x95]Tm#[0xad]v[0xdb]jd[0xc0][0x3]N[0x0]S[0xdb][0xcc]$[0x8d][0xfa][0xdf][0xf7][0xd8]0O"
+[DEBUG] 2025-04-11 08:33:52.783 [] wire -  << "e[0x93]6C>[0x84]1[0x4][0xce][0xbd][0xbe][0x8f]sl[0xdf]v*[0x91]u[0x82]N[0xaa]T)[0x3][0xd7]%%s[0x12][0xa6][0xd2]*t"[0x9e][0xbb][0x82][0x96]\[0xba]_R2S[0xef]?[0xb9]_[0xde][0xbf]>[0xb9][0x98][0x1e][0x9f][0xbf];=?[0xc6][0xbf]2J$[0x95][0xae][0xef]y[0xbd][0xf1]h[0xe0]u;[0x87][0x1d]"%Ur[0xda][0x1e][0xa6][#[0x2][0xba]*3N[0xe2][0x1d][0xe8][0xfa][0xa1]|[0xb4][0xcb][\r][0xfc][0xed][0xcb][0x82][0xe4][0xf4]0#![0xcd]~[0xc1]V[0xaa][0xf2]l[0xc7][0xd2]FP[0xee][0xf][0x87]"[0x89];q|[0xc7][0xef][0xfa][0x83]n[0xbf];[0x1][0x1c][0x8b];[0xc1]*J[0x8]R[0xa5]R.:[0xc1]m'[0xe3][0x9]+[0x10][0xfd][0x1a][0xdc]&[0x91]b[0xbc][0x90]_C[0xae][0xbe]7[0x9f][0xf5][0xbd][0xf1]d[0xec][0x8f][0xfd][0xc3]N[0xc1]c:[0xd5]H[0x9d][0xb3][0xa3][0xb3][0xe1][0xa7]|[0xd2]=?:[0xee][0xbc]Hn>[0x1e][0x9d][0xbe][0xd0][0xb1][0x9f][0x13]E[0xc4]n[0xec][0xcd][0xc3]e[0x80]*IE[0xc4][0xb]E[0xb]e[0xd2][0xcb][\n]"
+[DEBUG] 2025-04-11 08:33:52.783 [] wire -  << "[0xd7][0x1b][0xf4][0x86][0xe3][0x97][0xf3][0x17]} $[0xa2][0xc1]0ft[0xcc][0xef][0xab][\r][\r]&[0xdd]m[0xd7][0x9f][0xf][0xde][0xc0][0xf9][0xe7][0x83][0xa3][0x7][0x83]H[0xca]r[0xf7]c|3[0xe3]Y[0xc6][0x17][0xc0][0xdd][0x9d][0xc6]vY[0xde]k[0xda]][0x81][0xac][0x0]Y[0x91][0xec][0xf][0x8][0x90][[0x97][0xab][0x94]"[0xc6][0x98][0xba][0xae][0x93][0x84][0xc9][0x87][0xaa][0xfd]~W[\r][0xc0]-[0x82]([0x15]r[0xab]!%[0xd2]%[0xe8]n[0x9d][0xef][0xb4][0xe5][0xfd][0xa0][\r][0x4][0x9c]][0x14][0xf0][0xf3][0xd6]t[0xb1][0xc1][0xae]B[0x19][0x9]V[0x9a]*[0xdb]' [@[0x0][0xe6]"![0x5][0xfb]I[0xf6][0x6][0x6][0x90][0x4][0x9e][0xa1][0x9d]}[0x1c]4[0x0][0x0][0xa2]s[0x94][0xfa]^H5[0xc2][0xad][[\n]"
+[DEBUG] 2025-04-11 08:33:52.783 [] wire -  << "6'[0xd1][0x8d][0xe][0xa3][0xa0][0x11]es[0xe4]h[0xf4][0x1d]([0x80][0xab][0x9b][0x92][0xa2][0xf9][0xde]p[0x85][0x1b][0x9d][0xe7][0xe9][0x9c][0xd1][0xc5][0xb4]y\Va[0xc6]"[0x9d]J[0xa6][0xe8][0x94][0xc4][0xb9][0xa6][0x8f][0x19][0xc9]$[0xfd][0xb5][0xc9][0x10][0x9f][0x8f][0xa7]W[0x8b][0xa3][0x8f]o[0xdf][0xd1][0x8b][0xa1][0xec][0x9f][0xe5][0xff]|[0xf6]54I[0xa6][0x9a][0xe7][0x0][0xbf]CP[0xa8][0xb9][0x84][0xaa])(!g[0x8a][0xc9][0x14]o[0xe4][0x4][0xd0][0xc0][0xbc][0xf3][0xfd]X@[0x10][0x1a][0xc3][0x87][0x9d]R[0xd0]F[0xc]V[0x8f]"A[0x89]B[0x84][0x8][0xde][0xea]h&[0xb4][0xbb]}[0xbb];[0xb9][0xf0][0xbd][0xa0][0xdb][\r][0xfc][0xde][0xbf][0x80]6s[0x91][0xe9][0xff][0xbe][0xd5][0x1f][0xe8][0xb7][0x1a][0xfe][0xf][0xbe]~[0xd7][0x13][0x10]![0xc9]v[0x99][0xf9][0xf7]%[0xab][0xf9]~[0x97][0x9e][0xb2]r/[0xd8][0xe6][0xfb]][0xd8][0x90][0xc7]7[0x98][0xfd][0xb3]g[0xd6][0xdf])QI[0xeb]mJ[0x8a][0x84][0xc6][0xdf][0x8a][0x3][0xb]y[0xe3][0xc2][0x9e][0xb1]k*[0xad][0xf0][0xc6]zu[0xc6]S[0x12][0xe2][0xc2][0xa8][0xc5][\n]"
+[DEBUG] 2025-04-11 08:33:52.783 [] wire -  << "k)[0xc6][0xf]iNYe[0x99][0xeb]Mz[0x13][\r][0x19]ASh`[0xd1][0x2]V"j[0x95][0xac][0xa4][0x19]+[0xa8][0x86][0xcf][0xc9][0x15][0xc8][0xcb]R[0x14]dc[0x89][0xaa][0xb0]f\X[0x5][0xa5]1[0x8d][0xf1][0x99]v[0xaa][0xf1][0x82][0xa4]9[0xaf][0xe2]3[0x12][\n]"
+[DEBUG] 2025-04-11 08:33:52.783 [] wire -  << "~[0xf5][0x8]G[0xfa]}[0xed]H[0xcc]#[0xb9][0xf6][0x83]IYQ[0x98][0xce][0xcb][0xc][0x15]a[0xd5][0xb3][0xdd][0xd7]NO[0xdb]yS[0xe5][0xa5][0x85][0x92]u[0x12][0xce][0x93][0x8c]:[0x91][0xb8])[0x15]w[0x14]+[0xae][0x2]}[0xb1]f[0x82][0xe7][0x96][0xe7]xC[0xa7]k)[0xae]G#[0x8c]t[0xb8]cZ[0xd2]"&[0x90][0xaa][0xc7][0xcc][0xd2][Y[0x7]]9D[0x96]4R[0x97]A[0xf3][0xbb][0xa0]dN[0xc5][0xd2]6[0xfa][0xcc]w[0xbc][0xda]:[0xc6][0xbd][0x16][0xac]w[0xb7][0xe6][0x9e][0xb3]Hp[0xc9]g[0xca][0x91]?[0xc0][0x2][0x2][0xb6][0x83]\bl_[0xc6]a[0xd4][0xb8][0xe1];[0x13][0xa7][0xeb]\[\n]"
+[DEBUG] 2025-04-11 08:33:52.783 [] wire -  << "[0xea]y6[0x9a]U[0x13][0x8a]q[0x9][0xae]u[0x97][0xff]h[0xc1]3S[0x86]&+:.9[0x8f][0xae][0x98][0xe2]A[0xf3]kG([0xcf][0xda][0x9f][0xc1]*%f[0xe4][0xb5]`z[0xb4]e[0xfa][0xb2]*[0x98][\n]"
+[DEBUG] 2025-04-11 08:33:52.783 [] wire -  << "[0xcc][0xd5][0xe]Q[0x3][0xa6][0x10]`[0xcb][0xaf][0xb][0xc1][0x8c][0xda][0xb0]:[0xd4]VO[0xc0]t[0x95][0xa0][0xae]\[0x90]$A[0xe6][0xe7]$c[0xb1]QB3[0xaf][0xf]7[0x82]aM#[0xcf]IB[0xd3][0xc7]T[0xdb][0xe0][0xae]ZO*[0xac][0xd4][0x2]s[0xad]g[0xd7][0xeb]9}[0xa7]k#[0xc7]:[0xb3][0xe6]n`[0xee][0xf6].[0xf7][0x81][0xbf]][0xee]%[0x89]R4[0x1b][0xa4][0x2][0x8b][0x88][0xa0][0xf9][0xb5]#9_[0xf5][o[0xd5]op[0xa9][0x5][0x7][0xd6][0xfd][0xc6][0xf8]r[0xa5][0x1f][0xf2][0x82]%DD[0x8c][0x4][0xb][0x1a][0xc6][0x10]g*rR [0xc8]M[0xef][\r]P[0xf3]=[0x1d][0xb]t+^[0x98][0xbe];a[0xd7][0xd6]v[0xa3]{[0xb0][0xd3][0xf4][0xf5]^$>Xw[0xcf][0x6][0xa7][0xdd][0x9d][0xe7]:[0xb3][0xcb]<[0xf][[0xca][0xf3][0xba][0x87][0xb4][0x3][0xb4]$[0xb9][0x93]R[0x92][0xd1][0x82]Uy[0xb0][0x1a][0xd9][0x8]wSr[0xce][0xc0][0xe9][0x9b]j[0xc3]`[0xd0]B[0x9e][0xd7][0x95][0xae][0xf9]Cb[0xa9]M[0xa7]?V[0xc3]`[0xf9][0xcc][0xbe]\[0x15]~[0xdf][0xf1]An[0xda][0x8d][0xbe][0xd3]k'[0xd3]ku1[0xfc]^[0x17]|[0xe]Z/[0x1c][0x89]N[0x9f]1[0xe8][0xec]r`kQ[0x85][0xb6][0x1a][0x8a][0xd1][0x81][0xf0][0x97][0x11]i[0x81][0xeb][0x87]w[0xb6]^[0xed]I[0x99]U[0xd8];[0xca][0xc0][0xdc][0xd9]+w[0xea][0xc7]O[0xe4][0xce][0xb6][0xf0][0x95][0x82]_B[0xf9]2[0x9e][0x87][0xfc]*[0xa8]V[0x1c]0vz[0xc3]Ft1[0x1c][0xef]_[0x1d][0xc3][0xb5][0xee][0xfd][0x1][0xb][0xd4][0xcd][0xdf][0xb0]@[0xb][0x94]?[0xbc][0xb3]6J[0xce][0x2][0xfc][0xd9][0x9c]_[0xe7][0xd9]Rm4[0xf7][0xc1]0z[0xa4][\r][0xad][0x19][0x8e]W,[0x8c][0xe9]GUT[0xe5]![0xa4]~9[0xd8]h[0x88][0x91][0xe3]c[0xa5][0xa3]Mc[0xa4][0x15]oo[0x5][0x18]n[0xab][0xeb][0x3][0xc2]nLCb[Yk[\r][0x8d][0xc4][0x9a]5[0xc5][0x9d][0xd3].Y[0xc4][0xf5][0x81][0x6]6+K[0xe2][0x82][0xf9][0xaf][0x89][0xe9]N'6)[0xe0][0x9][0xac][0x9b]E[0xf5]i[0x8e]v[0x9b]S[0x8b]^G[0xd4][0xec][0xdf]-[0xac][0xdb]c,[0xf0][0x13][0xbd][0xa6]x][0x1f][0x1c]9[0x86][0x16][0xf7][0xde]O[0xc][0xff]@[0x8a]j[0xf1]YJ[0xd1][0xa8][0x1d])[0x1a][0xad]{}[0x83][0x81][0x9b].{[0x9a][0xfe][0x1a]mS[0xed]o[0x8b][0x8f][0x91][0x9c]Z|[0xbc]6zmd86[0xd4][0x5][0x8f][0x15][0x8d][0xd4][0x89][0x6][0xfa][0xe6]v][0xe7][0xfb]"
+[DEBUG] 2025-04-11 08:33:52.783 [] wire -  << "[0x14]Gx[0xa2] Y[0x9d]p[0x14][0x82]UB[0xb2]5[0xf9][0xec][0x9d][0xfc][0x11][0x18][0xee][[0x81]M[0xeb]96[0x9]o[0xd1]Z[0x82][0x85][0x95][0xe2]Bj[0xbf]^[0x9d]m[0xed][0xdc]r[0x12]c[0xb9][0x99]R[0x86]5[0x17][0x13]Ra7[0xd6][0xbc][0xaf][0xfd][0xfe][0xf3][0x8d][0xac][0xde]?[0xc2][0xcc][0xc1][0x9][0xf6][0xb5][0xcd]n[0x19]'[0xa4][0x7][0x7][0xc1]o[0xef][0x88][0xb1]r)[0x9][0x16][0xe3][0x13][0xc7][0xab][0xf]`{^[0xcf]q[0xf4][0x12]m[0xf3]<6[0xc7][0xa1][0x90]9[0x2][0x8b]xU[0xe0][0x84][0xa2][0xff][0xeb]?[0x8d][0x86][0x88]$[0x7][0x17][0x0][0x0]"
+[DEBUG] 2025-04-11 08:33:52.784 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-04-11 08:33:52.839 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2924a4c
+[DEBUG] 2025-04-11 08:33:52.840 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[WARN ] 2025-04-11 08:33:53.314 [] ReportManager - 
+[1;33m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          ⚠️ You're using an outdated engine version "9.1.20250313" ⚠️                                          
+                                 Kindly upgrade to the latest one "9.2.20250409" to ensure the best experience.                                 
+                           For more information click here: https://github.com/ShaftHQ/SHAFT_ENGINE/releases/latest .                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-11 08:34:01.013 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                               Test Method: 'tests.SearchTests.testInvalidSearch'                                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-11 08:34:02.819 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testInvalidSearch'
+[INFO ] 2025-04-11 08:34:02.820 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                    Finished Execution of Test Method: 'tests.SearchTests.testInvalidSearch'                                    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-11 08:34:02.829 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                          'tests.SearchTests.tearDown'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-11 08:34:02.952 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-11 08:34:02.953 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
