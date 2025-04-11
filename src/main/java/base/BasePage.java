@@ -35,10 +35,9 @@ public class BasePage {
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(
                 ExpectedConditions.jsReturnsValue("return document.readyState=='complete';"));
     }
+
     public void waitForElementToBeClickable(By locator) {
         new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.elementToBeClickable(locator));
     }
-
-
 }
