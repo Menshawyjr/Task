@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="All Places" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a24a19b-cc6a-4502-b0af-84eb7eb092a9" name="Changes" comment="Initial commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2vULTg4EjHvOEjDblELGJKm8pBY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.Task [clean].executor": "Run",
+    "Maven.Task [compile].executor": "Run",
+    "Maven.Task [install].executor": "Run",
+    "Maven.Task [package].executor": "Run",
+    "Maven.Task [test].executor": "Run",
+    "Maven.Task [validate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AddToCartTest.executor": "Run",
+    "TestNG.AddToCartTest.testAddToCart.executor": "Run",
+    "TestNG.CartTests.addItemToCartTest.executor": "Run",
+    "TestNG.CheckoutTests.testInvalidCheckout.executor": "Run",
+    "TestNG.CheckoutTests.testValidCheckout.executor": "Run",
+    "TestNG.CheckoutTests.testValidCheckout1.executor": "Run",
+    "TestNG.CompletePurchaseTest.executor": "Run",
+    "TestNG.CompletePurchaseTest.testCompletePurchase.executor": "Run",
+    "TestNG.ProductSearchTest.executor": "Run",
+    "TestNG.ProductSearchTest.testInvalidSearchShowsNoResults.executor": "Run",
+    "TestNG.SearchTests.testInvalidSearch.executor": "Run",
+    "TestNG.SearchTests.testValidSearch.executor": "Run",
+    "TestNG.SearchTests.validProductSearchTest.executor": "Run",
+    "TestNG.SecurityTests.executor": "Run",
+    "TestNG.SecurityTests.testSqlInjectionSearch.executor": "Run",
+    "TestNG.SecurityTests.testXssSearch.executor": "Run",
+    "TestNG.log.f.executor": "Run",
+    "TestNG.newtest.f.executor": "Run",
+    "TestNG.tests.CartTests and 1 more.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/menshawy_jr/Documents/I/Quality/QC/Practical/Automation/Tasks/UI/Task",
+    "onboarding.tips.debug.path": "/Users/menshawy_jr/Documents/I/Quality/QC/Practical/Automation/Tasks/UI/Task/src/main/java/org/example/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SecurityTests.testXssSearch">
+    <configuration name="CheckoutTests.testValidCheckout1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckoutTests" />
+      <option name="METHOD_NAME" value="testValidCheckout1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.testInvalidSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SearchTests" />
+      <option name="METHOD_NAME" value="testInvalidSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.testValidSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SearchTests" />
+      <option name="METHOD_NAME" value="testValidSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityTests.testSqlInjectionSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SecurityTests" />
+      <option name="METHOD_NAME" value="testSqlInjectionSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityTests.testXssSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SecurityTests" />
+      <option name="METHOD_NAME" value="testXssSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SecurityTests.testXssSearch" />
+        <item itemvalue="TestNG.SecurityTests.testSqlInjectionSearch" />
+        <item itemvalue="TestNG.SearchTests.testInvalidSearch" />
+        <item itemvalue="TestNG.SearchTests.testValidSearch" />
+        <item itemvalue="TestNG.CheckoutTests.testValidCheckout1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-semeru-17.0.9-f644763e9732-688986a8" />
+        <option value="jdk-18.0.2-corretto-18.0.2-f644763e9732-56b8144a" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a24a19b-cc6a-4502-b0af-84eb7eb092a9" name="Changes" comment="" />
+      <created>1744194715903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744194715903</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1744349533070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744349533071</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1744349557155</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744349557155</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/log.java</url>
+          <line>11</line>
+          <properties class="tests.log" method="f">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
